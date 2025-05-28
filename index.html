@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="meta.title">Stoxa - Solution de Classement Physique des Documents</title>
+    <meta name="description" data-i18n="meta.description" content="Stoxa est une solution complète pour la gestion et le classement physique de vos documents et archives. Organisez, recherchez et gérez vos documents facilement.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">🗂️</span>
+                <span class="brand-name">Stoxa</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav.features">Fonctionnalités</a>
+                <a href="#benefits" data-i18n="nav.benefits">Avantages</a>
+                <a href="#pricing" data-i18n="nav.pricing">Tarifs</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="fr">🇫🇷 FR</button>
+                    <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+                    <button class="lang-btn" data-lang="ar">🇸🇦 AR</button>
+                </div>
+                <button class="btn btn-primary" data-i18n="nav.free_trial">Essai Gratuit</button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1><span data-i18n="hero.title_part1">Gérez vos documents physiques avec</span> <span class="highlight">Stoxa</span></h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">
+                        La solution complète pour organiser, classer et retrouver vos documents et archives physiques. 
+                        Simplifiez la gestion de vos armoires, rayons, boîtes et dossiers.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large">
+                            <span>🚀</span>
+                            <span data-i18n="hero.start_free">Commencer Gratuitement</span>
+                        </button>
+                        <button class="btn btn-secondary btn-large">
+                            <span>▶️</span>
+                            <span data-i18n="hero.watch_demo">Voir la Démo</span>
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10,000+</span>
+                            <span class="stat-label" data-i18n="hero.stats.documents">Documents gérés</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label" data-i18n="hero.stats.companies">Entreprises</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label" data-i18n="hero.stats.uptime">Disponibilité</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="app-mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <span class="mockup-title" data-i18n="mockup.title">Stoxa - Classement Physique</span>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-sidebar">
+                                <div class="sidebar-item active">🗂️ <span data-i18n="mockup.classification">Classement</span></div>
+                                <div class="sidebar-item">🔍 <span data-i18n="mockup.search">Recherche</span></div>
+                                <div class="sidebar-item">📊 <span data-i18n="mockup.reports">Rapports</span></div>
+                                <div class="sidebar-item">🏷️ <span data-i18n="mockup.labels">Étiquettes</span></div>
+                            </div>
+                            <div class="mockup-main">
+                                <div class="breadcrumb">🏠 <span data-i18n="mockup.breadcrumb">Armoires › 📚 Armoire A › 📚 Rayon 1</span></div>
+                                <div class="items-grid">
+                                    <div class="item-card">📦 <span data-i18n="mockup.box">Boîte</span> 001</div>
+                                    <div class="item-card">📦 <span data-i18n="mockup.box">Boîte</span> 002</div>
+                                    <div class="item-card">📦 <span data-i18n="mockup.box">Boîte</span> 003</div>
+                                    <div class="item-card">📦 <span data-i18n="mockup.box">Boîte</span> 004</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="features.title">Fonctionnalités Complètes</h2>
+                <p data-i18n="features.subtitle">Tout ce dont vous avez besoin pour gérer vos documents physiques</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🗂️</div>
+                    <h3 data-i18n="features.hierarchical.title">Classement Hiérarchique</h3>
+                    <p data-i18n="features.hierarchical.description">Organisez vos documents en armoires, rayons, boîtes et dossiers avec une hiérarchie claire et intuitive.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 data-i18n="features.search.title">Recherche Avancée</h3>
+                    <p data-i18n="features.search.description">Trouvez instantanément vos documents grâce à notre moteur de recherche puissant et nos filtres avancés.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 data-i18n="features.reports.title">Rapports Détaillés</h3>
+                    <p data-i18n="features.reports.description">Analysez l'utilisation de vos espaces de stockage avec des graphiques et statistiques en temps réel.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏷️</div>
+                    <h3 data-i18n="features.labeling.title">Système d'Étiquetage</h3>
+                    <p data-i18n="features.labeling.description">Créez et gérez des étiquettes personnalisées pour une organisation optimale de vos documents.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 data-i18n="features.multilingual.title">Interface Multilingue</h3>
+                    <p data-i18n="features.multilingual.description">Disponible en français, anglais et arabe avec support RTL complet pour une utilisation internationale.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 data-i18n="features.security.title">Sécurité Avancée</h3>
+                    <p data-i18n="features.security.description">Protégez vos données avec un système de sécurité robuste et des sauvegardes automatiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <h2 data-i18n="benefits.title">Pourquoi Choisir Stoxa ?</h2>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">⚡</span>
+                            <div>
+                                <h4 data-i18n="benefits.time.title">Gain de Temps</h4>
+                                <p data-i18n="benefits.time.description">Réduisez de 80% le temps de recherche de vos documents grâce à notre système d'organisation intelligent.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">💰</span>
+                            <div>
+                                <h4 data-i18n="benefits.savings.title">Économies</h4>
+                                <p data-i18n="benefits.savings.description">Optimisez l'utilisation de vos espaces de stockage et réduisez les coûts de gestion documentaire.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">📈</span>
+                            <div>
+                                <h4 data-i18n="benefits.productivity.title">Productivité</h4>
+                                <p data-i18n="benefits.productivity.description">Améliorez l'efficacité de vos équipes avec des outils de gestion intuitifs et performants.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🛡️</span>
+                            <div>
+                                <h4 data-i18n="benefits.compliance.title">Conformité</h4>
+                                <p data-i18n="benefits.compliance.description">Respectez les réglementations avec un système de traçabilité complet et des audits automatisés.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-image">
+                    <div class="stats-dashboard">
+                        <h3>📊 <span data-i18n="dashboard.title">Tableau de Bord</span></h3>
+                        <div class="chart-container">
+                            <div class="chart-bar" style="height: 60%"><span data-i18n="dashboard.jan">Jan</span></div>
+                            <div class="chart-bar" style="height: 80%"><span data-i18n="dashboard.feb">Fév</span></div>
+                            <div class="chart-bar" style="height: 45%"><span data-i18n="dashboard.mar">Mar</span></div>
+                            <div class="chart-bar" style="height: 90%"><span data-i18n="dashboard.apr">Avr</span></div>
+                            <div class="chart-bar" style="height: 70%"><span data-i18n="dashboard.may">Mai</span></div>
+                        </div>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-value">1,247</span>
+                                <span class="stat-name" data-i18n="dashboard.documents">Documents</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value">89%</span>
+                                <span class="stat-name" data-i18n="dashboard.capacity">Capacité</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="pricing.title">Choisissez votre formule</h2>
+                <p data-i18n="pricing.subtitle">Des tarifs adaptés à tous les besoins de classement</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Formule Trial -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 data-i18n="pricing.trial.name">Essai Gratuit</h3>
+                        <div class="price">
+                            <span class="currency" data-i18n="pricing.trial.currency">€</span>
+                            <span class="amount" data-i18n="pricing.trial.price">0</span>
+                            <span class="period" data-i18n="pricing.trial.period">/ 15 jours</span>
+                        </div>
+                    </div>
+                    
+                    <ul class="pricing-features">
+                        <li data-i18n="pricing.trial.feature1">✅ Jusqu'à 100 documents</li>
+                        <li data-i18n="pricing.trial.feature2">✅ Toutes les fonctionnalités de base</li>
+                        <li data-i18n="pricing.trial.feature3">✅ Classification hiérarchique</li>
+                        <li data-i18n="pricing.trial.feature4">✅ Recherche avancée</li>
+                        <li data-i18n="pricing.trial.feature5">✅ Support par email</li>
+                        <li data-i18n="pricing.trial.feature6">⏰ Durée limitée à 15 jours</li>
+                    </ul>
+                    
+                    <button class="btn btn-outline btn-full" data-i18n="pricing.trial.cta">Commencer l'essai</button>
+                </div>
+                
+                <!-- Formule Professional -->
+                <div class="pricing-card featured">
+                    <div class="pricing-badge" data-i18n="pricing.professional.badge">Recommandé</div>
+                    <div class="pricing-header">
+                        <h3 data-i18n="pricing.professional.name">Professionnel</h3>
+                        <div class="price">
+                            <span class="currency" data-i18n="pricing.professional.currency">€</span>
+                            <span class="amount" data-i18n="pricing.professional.price">79</span>
+                            <span class="period" data-i18n="pricing.professional.period">/ an</span>
+                        </div>
+                    </div>
+                    
+                    <ul class="pricing-features">
+                        <li data-i18n="pricing.professional.feature1">✅ Jusqu'à 1 000 documents</li>
+                        <li data-i18n="pricing.professional.feature2">✅ Toutes les fonctionnalités</li>
+                        <li data-i18n="pricing.professional.feature3">✅ Sauvegarde automatique</li>
+                        <li data-i18n="pricing.professional.feature4">✅ Export/Import avancé</li>
+                        <li data-i18n="pricing.professional.feature5">✅ Support prioritaire</li>
+                        <li data-i18n="pricing.professional.feature6">✅ Mises à jour incluses</li>
+                        <li data-i18n="pricing.professional.feature7">✅ Formation en ligne</li>
+                    </ul>
+                    
+                    <button class="btn btn-primary btn-full" data-i18n="pricing.professional.cta">Choisir Professionnel</button>
+                </div>
+                
+                <!-- Formule Enterprise -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 data-i18n="pricing.enterprise.name">Entreprise</h3>
+                        <div class="price">
+                            <span class="currency" data-i18n="pricing.enterprise.currency">€</span>
+                            <span class="amount" data-i18n="pricing.enterprise.price">199</span>
+                            <span class="period" data-i18n="pricing.enterprise.period">/ an</span>
+                        </div>
+                    </div>
+                    
+                    <ul class="pricing-features">
+                        <li data-i18n="pricing.enterprise.feature1">✅ Documents illimités</li>
+                        <li data-i18n="pricing.enterprise.feature2">✅ Utilisateurs multiples</li>
+                        <li data-i18n="pricing.enterprise.feature3">✅ Gestion des droits d'accès</li>
+                        <li data-i18n="pricing.enterprise.feature4">✅ API d'intégration</li>
+                        <li data-i18n="pricing.enterprise.feature5">✅ Support téléphonique 24/7</li>
+                        <li data-i18n="pricing.enterprise.feature6">✅ Formation sur site</li>
+                        <li data-i18n="pricing.enterprise.feature7">✅ Personnalisation avancée</li>
+                        <li data-i18n="pricing.enterprise.feature8">✅ Sauvegarde cloud sécurisée</li>
+                    </ul>
+                    
+                    <button class="btn btn-primary btn-full" data-i18n="pricing.enterprise.cta">Contacter les ventes</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 data-i18n="contact.title">Prêt à Commencer ?</h2>
+                    <p data-i18n="contact.subtitle">Contactez-nous pour une démonstration personnalisée ou pour toute question sur Stoxa.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4 data-i18n="contact.email">Email</h4>
+                                <p>contact@stoxa.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <h4 data-i18n="contact.phone">Téléphone</h4>
+                                <p>+33 1 23 45 67 89</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-icon">🏢</span>
+                            <div>
+                                <h4 data-i18n="contact.address">Adresse</h4>
+                                <p data-i18n="contact.address_text">123 Rue de la Innovation<br>75001 Paris, France</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.form.name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.form.email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" data-i18n="contact.form.company">Entreprise</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.form.message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-i18n="contact.form.send">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo">🗂️</span>
+                        <span class="brand-name">Stoxa</span>
+                    </div>
+                    <p data-i18n="footer.description">La solution complète pour la gestion de vos documents physiques.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.product">Produit</h4>
+                        <a href="#features" data-i18n="footer.features">Fonctionnalités</a>
+                        <a href="#pricing" data-i18n="footer.pricing">Tarifs</a>
+                        <a href="#" data-i18n="footer.documentation">Documentation</a>
+                        <a href="#" data-i18n="footer.api">API</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.company">Entreprise</h4>
+                        <a href="#" data-i18n="footer.about">À propos</a>
+                        <a href="#" data-i18n="footer.blog">Blog</a>
+                        <a href="#" data-i18n="footer.careers">Carrières</a>
+                        <a href="#" data-i18n="footer.press">Presse</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.support">Support</h4>
+                        <a href="#contact" data-i18n="footer.contact">Contact</a>
+                        <a href="#" data-i18n="footer.help_center">Centre d'aide</a>
+                        <a href="#" data-i18n="footer.status">Statut</a>
+                        <a href="#" data-i18n="footer.community">Communauté</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Stoxa. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+                <div class="footer-legal">
+                    <a href="#" data-i18n="footer.privacy">Politique de confidentialité</a>
+                    <a href="#" data-i18n="footer.terms">Conditions d'utilisation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
