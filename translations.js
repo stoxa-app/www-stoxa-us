@@ -90,6 +90,32 @@ const translations = {
             documents: "Documents",
             capacity: "Capacité"
         },
+        download: {
+            title: "Télécharger Stoxa",
+            subtitle: "Disponible pour Windows - Installation rapide et facile",
+            installer: {
+                title: "Installateur Windows",
+                description: "Installation automatique avec raccourcis et désinstallation propre",
+                button: "Télécharger l'installateur"
+            },
+            portable: {
+                title: "Version Portable",
+                description: "Archive ZIP à extraire, aucune installation requise",
+                button: "Télécharger portable"
+            },
+            github: {
+                title: "Code Source",
+                description: "Accès au code source complet et historique des versions",
+                button: "Voir sur GitHub"
+            },
+            requirements: {
+                title: "Configuration Minimale",
+                os: "Système :",
+                ram: "RAM :",
+                storage: "Stockage :",
+                display: "Affichage :"
+            }
+        },
         pricing: {
             title: "Choisissez votre formule",
             subtitle: "Des tarifs adaptés à tous les besoins de classement",
@@ -264,6 +290,32 @@ const translations = {
             documents: "Documents",
             capacity: "Capacity"
         },
+        download: {
+            title: "Download Stoxa",
+            subtitle: "Available for Windows - Quick and Easy Installation",
+            installer: {
+                title: "Windows Installer",
+                description: "Automatic installation with shortcuts and proper uninstallation",
+                button: "Download Installer"
+            },
+            portable: {
+                title: "Portable Version",
+                description: "ZIP archive to extract, no installation required",
+                button: "Download Portable"
+            },
+            github: {
+                title: "Source Code",
+                description: "Access to complete and historical source code of versions",
+                button: "View on GitHub"
+            },
+            requirements: {
+                title: "Minimum Configuration",
+                os: "System :",
+                ram: "RAM :",
+                storage: "Storage :",
+                display: "Display :"
+            }
+        },
         pricing: {
             title: "Choose Your Plan",
             subtitle: "Pricing adapted to all classification needs",
@@ -437,6 +489,32 @@ const translations = {
             may: "مايو",
             documents: "الوثائق",
             capacity: "السعة"
+        },
+        download: {
+            title: "تحميل Stoxa",
+            subtitle: "متوفر لنظام التشغيل Windows - تثبيت سريع وسهل",
+            installer: {
+                title: "برنامج تثبيت Windows",
+                description: "تثبيت آلي باستخدام الروابط وإزالة آلية صحيحة",
+                button: "تحميل برنامج التثبيت"
+            },
+            portable: {
+                title: "إصدار محمول",
+                description: "ملف إرشاء ZIP لا يتطلب تثبيت، لا تحتاج إلى تثبيت",
+                button: "تحميل محمول"
+            },
+            github: {
+                title: "كود المصدر",
+                description: "الوصول إلى كود المصدر الكامل والتاريخي للإصدارات",
+                button: "مشاهدة من GitHub"
+            },
+            requirements: {
+                title: "التكوين الأدنى",
+                os: "النظام :",
+                ram: "RAM :",
+                storage: "التخزين :",
+                display: "العرض :"
+            }
         },
         pricing: {
             title: "اختر خطتك",
