@@ -16,6 +16,7 @@ const translations = {
             title_part1: "Gérez vos documents physiques avec",
             subtitle: "La solution complète pour organiser, classer et retrouver vos documents et archives physiques. Simplifiez la gestion de vos armoires, rayons, boîtes et dossiers.",
             start_free: "Commencer Gratuitement",
+            download: "Télécharger Stoxa",
             watch_demo: "Voir la Démo",
             stats: {
                 documents: "Documents gérés",
@@ -189,6 +190,7 @@ const translations = {
             title_part1: "Manage your physical documents with",
             subtitle: "The complete solution to organize, classify and find your physical documents and archives. Simplify the management of your cabinets, shelves, boxes and folders.",
             start_free: "Start Free",
+            download: "Download Stoxa",
             watch_demo: "Watch Demo",
             stats: {
                 documents: "Documents managed",
@@ -362,6 +364,7 @@ const translations = {
             title_part1: "أدر وثائقك الفيزيائية مع",
             subtitle: "الحل الشامل لتنظيم وتصنيف والعثور على وثائقك وأرشيفك الفيزيائي. بسط إدارة خزائنك ورفوفك وصناديقك ومجلداتك.",
             start_free: "ابدأ مجاناً",
+            download: "تحميل Stoxa",
             watch_demo: "شاهد العرض التوضيحي",
             stats: {
                 documents: "وثيقة مُدارة",

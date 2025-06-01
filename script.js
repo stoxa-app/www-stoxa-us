@@ -555,4 +555,35 @@ window.StoXaLanding = {
     getCurrentLanguage: () => window.languageManager?.getCurrentLanguage() || 'fr',
     trackEvent,
     showNotification
-}; 
+};
+
+// Fonctions de téléchargement
+function downloadInstaller() {
+    // Track download analytics if needed
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'download', {
+            'file_name': 'Stoxa-v1.0.1-portable.zip',
+            'file_type': 'installer'
+        });
+    }
+    
+    // Redirect to Azure Blob Storage with SAS token (if needed)
+    // Replace with your SAS token if public access is not available
+    const sasToken = ''; // Add your SAS token here if needed: '?sv=2022-11-02&ss=b&srt=sco&sp=r&se=2025-12-31T23:59:59Z&st=2025-01-01T00:00:00Z&spr=https&sig=YOUR_SIGNATURE'
+    window.open(`https://storagestoxa.blob.core.windows.net/releases/Stoxa-v1.0.1-portable.zip${sasToken}`, '_blank');
+}
+
+function downloadPortable() {
+    // Track download analytics if needed
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'download', {
+            'file_name': 'Stoxa-v1.0.1-portable.zip',
+            'file_type': 'portable'
+        });
+    }
+    
+    // Redirect to Azure Blob Storage with SAS token (if needed)
+    // Replace with your SAS token if public access is not available
+    const sasToken = ''; // Add your SAS token here if needed: '?sv=2022-11-02&ss=b&srt=sco&sp=r&se=2025-12-31T23:59:59Z&st=2025-01-01T00:00:00Z&spr=https&sig=YOUR_SIGNATURE'
+    window.open(`https://storagestoxa.blob.core.windows.net/releases/Stoxa-v1.0.1-portable.zip${sasToken}`, '_blank');
+} 
